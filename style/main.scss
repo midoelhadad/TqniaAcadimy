@@ -1,0 +1,1063 @@
+@import
+@font-face{
+    font-family: Bahij;
+    src: url(../Fonts/Bahij_TheSansArabic-Light.woff);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face{font-family: Bahij_Light ; src: url(../fonts/Bahij_TheSansArabic-Light.ttf)}
+@font-face{font-family: Bahij_SemiBold ; src: url(../fonts/Bahij_TheSansArabic-SemiBold.ttf)}
+
+body{font-family: "Bahij_Light";}
+
+.navbar {
+    background-position: bottom;
+    padding: 8px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    transition: all 0.5s;
+    background-color: #fff;
+    direction: rtl;
+    transition: all ease-in-out 0.3s;
+    .navbar-nav {
+        .dropdown {
+            &:hover {
+                .dropdown-menu {
+                    transition: all ease-in-out 0.3s;
+                    display: block;
+                }
+            }
+        }
+        .nav-item {
+            
+            .nav-link {
+                transition: all .5s;
+                color: #000;
+                font-size: 16px;
+                cursor: pointer;
+                &:hover {
+                    color: #352DDC;
+                }
+            }
+            .active{
+                color: #352DDC;
+            }
+        }
+    }
+}
+
+.scrolled{
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+/* End Navbar */
+
+/* Stat Section AppLanding*/
+.bestapp{
+    margin-top: 100px;
+    .aboutimg{
+        img{
+            width: 100%;
+        }
+    }
+    .aout{
+        padding-top: 150px;
+        h5{
+            font-size: 22px;
+            color: #1F1E1E;
+            text-align: right;
+            font-family: "Bahij_Light";
+        }
+        p{
+            text-align: right;
+            font: normal normal 300 18px/48px Bahij TheSansArabic;
+            letter-spacing: 0px;
+            color: #1F1E1E;
+            font-size: 18px;
+            line-height: 30px;
+            padding-top: 26px;
+            padding-bottom: 90px;
+            font-family: "Bahij_Light";
+        }
+        .btnstart{
+            float: right;
+            margin-left: 10px;
+           background: #3E3EE0 0% 0% no-repeat padding-box;
+            border-radius: 40px;
+            padding: 5px 40px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff;
+            font-style: normal;
+            font-weight: 100;
+            font-family: "Bahij_Light";
+        }
+        .btnlive{
+            float: right;
+            text-decoration: none;
+            font-size: 17px;
+            color: #352DDC;
+            img{
+                width: 30%;
+                padding-left: 15px;
+            }
+        }
+    }
+}
+
+/* End Section AppLanding */
+
+/* Start Section features */
+.features{
+    padding: 100px 0 100px;
+    .featurehead{
+        text-align: center;
+        padding-bottom: 90px;
+        h3{
+            color: #05031D;
+        }
+        p{
+            color: #1F1E1E;
+            font-size: 18px;
+            width: 35%;
+            margin: 0 auto;
+        }
+    }
+    .feat-images{
+        img{
+            width: 100%;
+        }
+    }
+    .features-list{
+        padding-top: 100px;
+        .list-names{
+            margin-bottom: 30px;
+            overflow: hidden;
+            img{
+                width: 11%;
+                margin-left: 24px;
+            }
+            .text-info{
+                float: left;
+                width: calc(100% - 100px);
+                h4{
+                    text-align: right;
+                    color: #05031D
+                }
+                p{
+                    color: #707070;
+                    float: right;
+                    width: 74%;
+                    text-align: right;
+                }
+            }
+        }
+    }
+.feat-right {
+    margin-right: -90px;
+}
+}
+/* End Section features */
+
+
+
+/* Start Section AppImages */
+.AppImages{
+    padding-bottom: 100px;
+    background-image: url(../images/backgroundslid.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    .apphead{
+        h4{
+            color: #05031D;
+        }
+        p{
+            color: #1F1E1E;
+            width: 34%;
+            margin: 0 auto;
+        }
+    }
+    .appcarosur{
+        
+        height: 600px;
+
+        background-size: 300px 100px;
+        padding-bottom: 50px;
+        padding-top: 100px;
+        
+        .splide__slide {
+            .test{
+                width : 100%;
+                height: auto;
+            }
+        }
+        
+    }
+    .splide__pagination{
+        display: none;
+    }
+    li#image-slider-slide{
+        padding: 5px;
+        
+    }
+    .splide--draggable>.splide__track>.splide__list>.splide__slide{
+        
+        background-size: contain !important;
+        padding: 0 !important;
+    }
+    .splide__arrow--prev {
+        left: -2em;
+    }
+    .splide__arrow--next {
+        right: -2em;
+    }
+}
+/* End Section AppImages */
+
+/* Strat Section downloadApp */
+.downloadApp{
+    margin-top: 150px;
+    background-color: #6861E9;
+    height: 390px;
+    
+    h4{
+        color: #FFFFFF;
+        text-align: right;
+        padding-bottom: 18px;
+        padding-top: 70px;
+    }
+    p{
+        color: #ffffffb8;
+        text-align: right;
+        padding-bottom: 50px;
+        line-height: 28px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .donimg{
+        img{
+            width: 100%;
+            margin-top: -240px;
+        }
+    }
+    .storlink{
+        text-align: center;
+        a{
+            text-decoration: none;
+            img{
+                width: 30%;
+                margin-left: 30px;
+            }
+        }
+    }
+}
+/* End Section downloadApp */
+
+
+
+/* Start Section partner */
+.partner{
+    padding:150px 0 100px;
+    text-align: center;
+    .partnerimg{
+        img{
+            width: 14%;
+        }
+        .freepik{
+            width: 20%;
+        }
+    }
+}
+
+
+/* End Section partner */
+
+/* Start Section get-in-touch */
+.get-in-touch{
+    .get-header{
+        text-align: center;
+        h3{
+            font-size: 36px;
+            padding-bottom: 20px;
+        }
+        p{
+            width: 38%;
+            margin: 0 auto;
+        }
+    }
+    .inputget{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 60px 60px;
+        input{
+            display: inline-block;
+            background-color: #352DDC;
+            height: 60px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-left: none;
+            color: #fff;
+            max-width: 500px;
+            &::placeholder{
+                color: #fff;
+                text-align: right;
+                padding-right: 30px;
+            }
+            
+        }
+        .getbtn{
+            width: 110px;
+            /* display: inline; */
+            background-color: #352DDC;
+            border: none;
+            height: 58px;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            margin-right: -5px;
+        }
+    }
+    .imgsvg{
+        img{
+            position: absolute;
+            left: 0;
+            width: 15%;
+        }
+    }
+}
+/* End Section get-in-touch */
+
+/* Start section Footer */
+footer{
+    text-align: right;
+    padding-top: 100px;
+    .footerone{
+        p{
+            width: 70%;
+            text-align: right;
+            padding: 24px 0;
+        }
+        .icons{
+            padding-top: 30px;
+            padding-bottom: 20px;
+            li{
+                display: inline-block;
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+        }
+    }
+    .footertwo{
+        h4{
+            color: #05031D;
+            font-size: 20px;
+        }
+        .category{
+            li{
+                line-height: 46px;
+                a{
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: #1B1B1D;
+                }
+            }
+        }
+
+    }
+    .footerthre{
+        h4{
+            color: #05031D;
+            font-size: 20px;
+
+        }
+        .quick-links{
+            li{
+                line-height: 46px;
+                a{
+                    text-decoration: none;
+                    color: #1B1B1D;
+                    font-size: 16px;
+                }
+
+            }
+        }
+    }
+    .footerfour{
+        h4{
+            color: #05031D;
+            font-size: 20px;
+
+        }
+        .quick{
+            li{
+                line-height: 46px;
+                a{
+                    text-decoration: none;
+                    color: #1B1B1D;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/* End section Footer */
+
+/* Strat Section CopyRight */
+.copyright{
+    background-color: #352DDC;
+   p{
+        color: #ffffffe3;
+        text-align: center;
+        padding-top: 15px;
+        a{
+            text-decoration: none;
+            color: #ffffffe3;   
+        }
+    }
+}
+/* End Section CopyRight */
+
+
+/*custom devices (portrait phones ) */
+@media (min-width: 320px) and (max-width: 574.98px){
+/* Start Section Best App */
+.bestapp{
+    .aboutimg{
+        text-align: center;
+        img{
+            width: 50%;
+        }
+    }
+}
+/* End Section Best App */
+
+/* Start Section Best App  */
+.bestapp{
+    .aout{
+        padding-top: 20px;
+        text-align: right;
+        p{
+            font-size: 16px;
+        }
+    }
+} 
+/* End Section Best App  */
+
+    /* Start Section features */
+.features{
+.featurehead{
+    padding-bottom: 10px;
+    p{
+        width: 90%;
+    }
+}
+.features-list{
+    padding-top: 50px;
+    
+    .list-names{
+        
+        
+        img{
+            width: 10%;
+        }
+        .text-info{
+            
+            h4{
+                font-size: 14px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    .feat-right{
+        margin-right: 0;
+    }
+}
+.feat-images{
+    text-align: center;
+    img{
+        width: 50%;
+    }
+}
+}
+/* End Section features */
+
+/* Start Section AppImages */
+.AppImages{
+padding-bottom: 0px;
+.apphead{
+    p{
+        width: 90%;
+    }
+}
+}
+
+/* End Section AppImages */
+/* Start Section downloadApp */
+.downloadApp{
+height: 290px;
+h4{
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+p{
+    font-size: 13px;
+    padding-bottom: 10px;
+
+}
+.donimg{
+    display: none;
+    img{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+}
+/* End Section downloadApp */
+
+/* Start footer */
+.footer{
+.footer-one {
+    p{
+        font-size: 10px;
+    }
+}
+.footer-three{
+    .info{
+        li{
+            font-size: 12px;
+        }
+    }
+}
+} 
+/* End Footer */
+
+
+/* Start get-in-touch */
+.get-in-touch{
+    .imgsvg{
+        img{
+            width: 25%;
+            z-index: -111;
+        }
+    }
+}
+/* End get-in-touch */
+
+/* Strat Section CopyRight */
+.copyright{
+.footer-nav{
+    li{
+        padding: 0;
+        a{
+            font-size: 12px;
+        }
+    }
+}
+.icons {
+    margin: 0;
+}
+}   
+/* End Section CopyRight */
+
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+ /* Start Section Best App */
+ .bestapp{
+    .aboutimg{
+        text-align: center;
+        img{
+            width: 50%;
+        }
+    }
+}
+/* End Section Best App */
+
+/* Start Section Best App  */
+.bestapp{
+    .aout{
+        padding-top: 20px;
+        text-align: right;
+        p{
+            font-size: 16px;
+        }
+    }
+} 
+/* End Section Best App  */
+
+    /* Start Section features */
+.features{
+.featurehead{
+    padding-bottom: 10px;
+    p{
+        width: 90%;
+    }
+}
+.features-list{
+    padding-top: 50px;
+    
+    .list-names{
+        
+        
+        img{
+            width: 10%;
+        }
+        .text-info{
+            
+            h4{
+                font-size: 14px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    .feat-right{
+        margin-right: 0;
+    }
+}
+.feat-images{
+    text-align: center;
+    img{
+        width: 50%;
+    }
+}
+}
+/* End Section features */
+
+/* Start Section AppImages */
+.AppImages{
+padding-bottom: 0px;
+.apphead{
+    p{
+        width: 90%;
+    }
+}
+.splide__arrow--prev {
+    left: 0em;
+}
+.splide__arrow--next {
+    right: 0em;
+}
+}
+/* End Section AppImages */
+
+/* Strat Section get-in-touch */
+.get-in-touch{
+    .get-header{
+        h3{
+            font-size: 18px;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    .inputget{
+        input{
+            &::placeholder{
+                font-size: 12px;
+            }
+        }
+    }
+}
+/* End Section get-in-touch */
+
+
+/* Start Section downloadApp */
+.downloadApp{
+height: 290px;
+h4{
+    padding-top: 20px;
+    font-size: 15px;
+}
+p{
+    font-size: 13px;
+    padding-bottom: 10px;
+
+}
+.donimg{
+    img{
+        width: 30%;
+       
+    }
+}
+}
+/* End Section downloadApp */
+
+/* Start footer */
+.footer{
+.footer-one {
+    p{
+        font-size: 10px;
+    }
+}
+.footer-three{
+    .info{
+        li{
+            font-size: 12px;
+        }
+    }
+}
+} 
+/* End Footer */
+
+
+
+
+/* Strat Section CopyRight */
+.copyright{
+.footer-nav{
+    li{
+        padding: 0;
+        a{
+            font-size: 14px;
+        }
+    }
+}
+.icons {
+    margin: 0;
+}
+}   
+/* End Section CopyRight */
+/* Start Slider */
+button.splide__arrow.splide__arrow--prev,
+.AppImages .splide__arrow--next{
+    margin-top: 20px;
+}
+/* End Slider */
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Start Section Best App */
+    .bestapp{
+        .aboutimg{
+            text-align: center;
+            img{
+                width: 50%;
+            }
+        }
+    }
+    /* End Section Best App */
+
+    /* Start Section Best App  */
+    .bestapp{
+        .aout{
+            padding-top: 20px;
+            text-align: right;
+            p{
+                font-size: 16px;
+            }
+        }
+    } 
+    /* End Section Best App  */
+/* Start Section AppImages */
+.AppImages{
+    padding-bottom: 0px;
+    .apphead{
+        p{
+            width: 90%;
+        }
+    }
+    .splide__arrow--prev {
+        left: 0em;
+    }
+    .splide__arrow--next {
+        right: 0em;
+    }
+    }
+    /* End Section AppImages */
+        /* Start Section features */
+.features{
+    .featurehead{
+        padding-bottom: 10px;
+        p{
+            width: 90%;
+        }
+    }
+    .features-list{
+        padding-top: 50px;
+        
+        .list-names{
+            
+            
+            img{
+                width: 10%;
+            }
+            .text-info{
+                
+                h4{
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .feat-right{
+            margin-right: 0;
+        }
+    }
+    .feat-images{
+        text-align: center;
+        img{
+            width: 50%;
+        }
+    }
+}
+/* End Section features */
+
+/* Start Section downloadApp */
+.downloadApp{
+    height: 290px;
+    h4{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+        padding-bottom: 10px;
+
+    }
+    .donimg{
+        img{
+            margin-top: -0;
+            display: none;
+        }
+    }
+}
+/* End Section downloadApp */
+
+/* Start footer */
+.footer{
+    .footer-one {
+        p{
+            font-size: 10px;
+        }
+    }
+    .footer-three{
+        .info{
+            li{
+                font-size: 12px;
+            }
+        }
+    }
+} 
+/* End Footer */
+/* Start get-in-touch */
+.get-in-touch{
+    .imgsvg{
+        img{
+            width: 30%;
+            z-index: -11;
+        }
+    }
+}
+/* End get-in-touch */
+/* Strat Section CopyRight */
+.copyright{
+    .footer-nav{
+        li{
+            padding: 0;
+            a{
+                font-size: 10px;
+            }
+        }
+    }
+}   
+/* End Section CopyRight */
+/* Start Slider */
+button.splide__arrow.splide__arrow--prev,
+.AppImages .splide__arrow--next{
+    margin-top: 20px;
+}
+/* End Slider */
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .bestapp{
+        .aout{
+            p{
+                font-size: 14px;
+            }
+        }  
+    } 
+    /* Start Section features */
+.features{
+    .features-list{
+        padding-top: 50px;
+        .list-names{
+            margin-bottom: 0px;
+            img{
+                width: 10%;
+            }
+            .text-info{
+                
+                h4{
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+/* End Section features */
+    .features{
+        .featurehead{
+            p{
+                font-size:14px
+            }
+        }
+    }  
+
+/* Start Section downloadApp */
+.downloadApp{
+    height: 290px;
+    h4{
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+        padding-bottom: 16px;
+
+    }
+    .donimg{
+        img{
+            width: 100%;
+            margin-top: -100px;
+        }
+    }
+}
+/* End Section downloadApp */
+/* Start footer */
+footer{
+    .footerfour {
+        h4{
+            font-size: 16px;
+        }
+    }
+    .footerthre{
+        h4{
+            font-size: 16px;
+        }
+    }
+} 
+/* End Footer */
+
+/* Start get-in-touch */
+.get-in-touch{
+    .imgsvg{
+        img{
+            width: 25%;
+            z-index: -11;
+        }
+    }
+}
+/* End get-in-touch */
+
+/* Strat copyright */
+.copyright{
+    .footer-nav {
+        li{
+            a{
+                font-size: 12px;
+            }
+        }
+    }
+} 
+/* End copyright */
+
+
+/* Start Slider */
+button.splide__arrow.splide__arrow--prev,
+.AppImages .splide__arrow--next{
+    margin-top: 20px;
+}
+/* End Slider */
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    /* Start Section features */
+.features{
+    .features-list{
+        padding-top: 80px;
+        .list-names{
+            margin-bottom: 10px;
+            img{
+                width: 10%;
+            }
+            .text-info{
+                
+                h4{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+/* End Section features */
+   
+/* Start Section AppImages */
+.downloadApp{
+    p{
+        font-size: 15px;
+    }
+    .donimg{
+        img{
+            width: 100%;
+            margin-top: -150px;
+        }
+    }
+}
+/* End Section AppImages */
+
+/* Start Section get-in-touch */
+.get-in-touch{
+    .inputget{
+        width: 80%;
+    }
+} 
+    
+/*End Section get-in-touch */
+
+/* Strat Section CopyRight */
+.copyright{
+    .footer-nav{
+        li{
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+}   
+/* End Section CopyRight */
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="321" height="705" viewBox="0 0 321 705">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_80" data-name="Rectangle 80" width="321" height="705" transform="translate(0 5425)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_9" data-name="Mask Group 9" transform="translate(0 -5425)" clip-path="url(#clip-path)">
+    <g id="Group_67" data-name="Group 67">
+      <g id="Group_31" data-name="Group 31" transform="matrix(0.788, 0.616, -0.616, 0.788, -141.515, 5259.449)" opacity="0.39">
+        <path id="Path_664" data-name="Path 664" d="M381.876,34.952c213.156,0,390.029-122.358,390.029,90.8S599.108,511.7,385.953,511.7,0,338.9,0,125.749,168.72,34.952,381.876,34.952Z" transform="translate(0 187.362)" fill="#4942d3"/>
+        <ellipse id="Ellipse_54" data-name="Ellipse 54" cx="313.111" cy="313.111" rx="313.111" ry="313.111" transform="translate(72.842 0)" fill="#6861e9" opacity="0.42"/>
+        <circle id="Ellipse_55" data-name="Ellipse 55" cx="250.054" cy="250.054" r="250.054" transform="translate(135.899 63.057)" fill="#6861e9" opacity="0.58"/>
+      </g>
+    </g>
+  </g>
+</svg>
